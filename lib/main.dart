@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meet/src/welcomepage.dart';
+import 'package:intl/intl.dart';
 
 void main() {
   runApp(const MyApp());

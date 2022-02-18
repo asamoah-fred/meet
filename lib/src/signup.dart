@@ -78,7 +78,7 @@ class _SignUpPageState extends State<SignUpPage> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 const Text(
-                                  "Username",
+                                  "Surname",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     fontSize: 15,
@@ -94,9 +94,95 @@ class _SignUpPageState extends State<SignUpPage> {
                                   textAlign: TextAlign.start,
                                   obscureText: false,
                                   decoration: InputDecoration(
-                                    hintText: "usernamae",
+                                    hintText: "surname",
                                     suffixIcon: Icon(
                                       Icons.person,
+                                      color: Colors.black54,
+                                    ),
+                                    border: OutlineInputBorder(
+                                      borderRadius: BorderRadius.circular(
+                                        15,
+                                      ),
+                                    ),
+                                    fillColor: Color(
+                                      0xfff3f3f4,
+                                    ),
+                                    filled: true,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.symmetric(
+                              vertical: 10,
+                            ),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Text(
+                                  "Firs Name",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 15,
+                                  ),
+                                ),
+                                SizedBox(
+                                  height: 10,
+                                ),
+                                TextField(
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                  ),
+                                  textAlign: TextAlign.start,
+                                  obscureText: false,
+                                  decoration: InputDecoration(
+                                    hintText: "first name",
+                                    suffixIcon: Icon(
+                                      Icons.person,
+                                      color: Colors.black54,
+                                    ),
+                                    border: OutlineInputBorder(
+                                      borderRadius: BorderRadius.circular(
+                                        15,
+                                      ),
+                                    ),
+                                    fillColor: Color(
+                                      0xfff3f3f4,
+                                    ),
+                                    filled: true,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.symmetric(
+                              vertical: 10,
+                            ),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Text(
+                                  "Phone number",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 15,
+                                  ),
+                                ),
+                                SizedBox(
+                                  height: 10,
+                                ),
+                                TextField(
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                  ),
+                                  textAlign: TextAlign.start,
+                                  obscureText: false,
+                                  decoration: InputDecoration(
+                                    hintText: "phone number",
+                                    suffixIcon: Icon(
+                                      Icons.call,
                                       color: Colors.black54,
                                     ),
                                     border: OutlineInputBorder(
