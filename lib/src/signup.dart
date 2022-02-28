@@ -5,7 +5,7 @@ import 'package:meet/src/Widget/bezierContainer.dart';
 import 'package:meet/src/loginPage.dart';
 
 class SignUpPage extends StatefulWidget {
-  SignUpPage({Key? key, this.title}) : super(key: key);
+  const SignUpPage({Key? key, this.title}) : super(key: key);
 
   final String? title;
 
